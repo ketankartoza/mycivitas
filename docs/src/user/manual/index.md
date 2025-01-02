@@ -20,6 +20,8 @@ This section of the documentation describes every page in the application and wh
 
 * **[Register:](./sign-up.md)** This documentation explains the sign-up page.
 
+* **[Forgot Password:](./forgot-password.md)** This documentation explains the forgot password functionality.
+
 * **[Logout:](./logout.md)** This documentation explains the logout functionality.
 
 * **[View Table:](./view-table.md)** This documentation explains the view table page.
@@ -31,3 +33,7 @@ This section of the documentation describes every page in the application and wh
 * **[Work order:](./work-order.md)** This documentation explains the work order page.
 
 * **[Profile options:](./work-order.md)** This documentation explains the profile options.
+
+* **[Contact Us:](./contact-us.md)** This documentation explains how the user can contact us.
+
+* **[User Roles:](./user-role.md)** This documentation explains the user roles.

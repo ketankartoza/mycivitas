@@ -17,6 +17,10 @@ Welcome to the MyCivitas user guide. In this section of the documentation, we ai
 
 * **[Registering/Login/Logout:](./register-login-logout.md)** This page will show you how to `register`, `login` and `logout` on the platform.
 
+* **[Forgot Password:](./forgot-password.md)** This page will show you how to reset your password if you forget it.
+
+* **[Community Map:](./community-map.md)** This page will show you how to view the community map.
+
 * **[Organisation:](./organisation.md)** This page will show you how to view and manage the organisation details and access.
 
 * **[User Profile:](./user-profile.md)** This page will guide you on how to view and edit the user profile.
@@ -26,3 +30,5 @@ Welcome to the MyCivitas user guide. In this section of the documentation, we ai
 * **[Dashboard:](./dashboard.md)** This page will show you how to download the PDFs of your reports and access important information about your MyCivitas account.
 
 * **[View Table:](./view-table.md)** This page will show you how to download CSV in all views on the view table page.
+
+* **[Contact Us:](./contact-us.md)** This page will show you how to contact the support team.

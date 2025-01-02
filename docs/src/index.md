@@ -10,86 +10,85 @@ contact: support@civitas.ca
 license: This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 ---
 
-# MyCivitas
-
-Welcome to MyCivitas
-
-An affordable, user-friendly asset management platform for small communities.
-MyCivitas is an all-inclusive, easy-to-use platform that lets you record and manage your assets in one powerful information system.
+# **Welcome to MyCivitas**
 
 ![mycivitas](./img/home-1.png)
 
-## Introduction
+Overview
 
-MyCivitas is a revolutionary project aimed at providing small communities with an affordable and user-friendly asset management platform. Our all-inclusive and easy-to-use platform is designed to empower you to record and manage your assets seamlessly within a powerful information system. MyCivitas is committed to simplifying the complex task of asset management, ensuring that even small communities can efficiently organise and oversee their valuable resources. Join us in embracing a solution that combines accessibility, affordability, and functionality for a streamlined approach to community asset management.
+MyCivitas is a user-friendly, cost-effective asset management platform designed specifically for smaller, budget-conscious municipalities.  Leveraging GIS technology, it seamlessly caters to both the strategic planning and day-to-day operational requirements of asset management.
 
-## Key concepts
+Users can view, locate and query their asset inventory data. MyCivitas calculates and reports Asset Management related information including the condition, replacement cost, life expectancy, probability of failure, consequence of failure and associated risk related to assets.  MyCivitas also includes a Computerized Maintenance Management Software (CMMS) module to create and manage work orders.
 
-**How does MyCivitas work?:** The heart of MyCivitas is a map of your community and its assets and infrastructure.
+MyCivitas uses QGIS, a free open-source desktop GIS and is integrated with Mergin Maps for recording information on site using a mobile app.
 
-**Capture your infrastructure:** Create an asset inventory using powerful mapping software. Our data capture system uses QGIS, a free and open-source desktop application.
+<!-- ### Purpose -->
 
-**Prioritize Your Assets:** Our system performs risk assessment analysis and preventative maintenance planning analysis on your data.
+## Where to start
 
-**Support Your Capital Planning:** Make informed decisions to support your capital planning.
+We recommend the following three-step approach: 
 
-**Set Up Work Order:** Use the platform to plan ad hoc and scheduled maintenance planning tasks.
+![Scope](./img/scope-1.png)
 
-**We Are Here to Help:** Let us know if you need any help along the way, from capturing data to presenting to the council. We have a team of experienced staff available.
+LandInfo developed a three-step methodology to support smaller communities in the development of their asset management plans:
 
-Please note that support is not included in the hosting fee. A popular option for small communities is to sign an annual support contract. Please inquire (support@civitas.ca) and we will connect you with a team member near you
+## Step 1: Asset Register
 
-**Enjoy Asset Management:** Practice effective and sustainable asset management on our affordable platform to benefit your community.
+Assets are captured in MyCivitas’s predefined data structure using QGIS.  Typically, data is obtained from existing electronic data, hard-copy maps and reports. The remaining unknown assets are recorded through field surveys using Mergin Maps, an open-source mobile application.
 
-### Disclaimer
+Once the data is captured, MyCivitas is used to generate reports on the condition, life expectancy, replacement cost, etc. of assets. The goal is to answer the following asset management questions:
 
-<div class="admonition warning">
-The software provided by this project is provided 'as is'. All information provided
-within the platform should be independently verified before using as the basis for
-action. The contributors and developers of this platform take no responsibility
-for any loss of revenue, life, physical harm or any other adverse outcome that may
-occur as a result of the use of this platform.
-</div>
+- What do we own?
 
-### Purpose
+- Where is it?
 
-### Scope of project
+- What is the condition?
 
-### Project roadmap
+- What is the remaining life?
+
+- What is the replacement value?
+
+## Step 2: Asset Prioritization
+
+The second phase is prioritizing assets based on risk. This phase is intended to identify critical assets. The probability of failure and consequence of failure values are collected for all assets. The goal is to answer the following Asset Management questions: 
+
+- What assets are the high priority?
+
+- What assets need to be replaced first?
+
+## Step 3: Capital and Operational Strategies
+
+Focusing on the high-priority assets identified in Step 2, the next step is to develop capital and operational strategies. A primary focus is to implement operational procedures to extend the life of assets and risk mitigation.
+
+MyCivitas automatically calculates renewal costs as well as the anticipated maintenance costs and annual averaged infrastructure demand requirements.
+
+<!-- ### Project roadmap
 
 ![Project Roadmap]()
-[Project Roadmap]()
+[Project Roadmap]() -->
 <!-- Either insert link to roadmap or actual roadmap (Speak to team leads) -->
 
 #### Contributing
 
-We would love to collaborate with you! But first, please read our [contributor
-guidelines](about/contributing.md) which describe how to report
-issues, plan and contribute feature additions etc.
+We would love to collaborate with you! But first, please read our [contributor guidelines](about/contributing.md) which describe how to report issues, plan and contribute feature additions etc.
 
 #### Code of conduct
 
-Our community in this project is aligned with our [Code of
-Conduct](about/code-of-conduct.md) - please be sure to read and abide by that
-document in all interactions with out community.
+Our community in this project is aligned with our [Code of Conduct](about/code-of-conduct.md) - please be sure to read and abide by that document in all interactions with our community.
 
 #### Diversity statement
 
 This project welcomes and encourages participation by everyone.
 
-No matter how you identify yourself or how others perceive you: we welcome you.
-We welcome contributions from everyone as long as they interact constructively
-with our community.
+No matter how you identify yourself or how others perceive you: we welcome you. We welcome contributions from everyone as long as they interact constructively with our community.
 
-While much of the work for our project is technical in nature, we value and
-encourage contributions from those with expertise in other areas, and welcome
-them into our community.
+While much of the work for our project is technical in nature, we value and encourage contributions from those with expertise in other areas, and welcome them into our community.
 
-## Project partners
+<!-- ## Project partners -->
 
 <!-- Insert Project Partner Logos and/or Links -->
-![Project Partner 1]()
-[Project Partner 1]()
+<!-- ![Project Partner 1]()
+[Project Partner 1]() -->
 
 #### Releases
 
@@ -99,8 +98,8 @@ them into our community.
 
 | | **Project Badges** | |
 | ----------------------- | ----------------------- | ----------------------- |
-| ![License](https://img.shields.io/github/license/{username}/{repo-name}.svg) | ![Version](https://img.shields.io/github/release/{username}/{repo-name}.svg) | ![Commits](https://img.shields.io/github/commits-since/{username}/{repo-name}/{version}.svg) |
-| ![Issue Tracker](https://img.shields.io/github/issues/{username}/{repo-name}.svg) | ![Closed Issues](https://img.shields.io/github/issues-closed/{username}/{repo-name}.svg) | ![Pull requests](https://img.shields.io/github/issues-pr/{username}/{repo-name}.svg) |
+| ![License](https://img.shields.io/github/license/landinfotech/mycivitas.svg) | ![Version](https://img.shields.io/github/release/landinfotech/mycivitas.svg) | ![Commits](https://img.shields.io/github/commits-since/landinfotech/mycivitas/{version}.svg) |
+| ![Issue Tracker](https://img.shields.io/github/issues/landinfotech/mycivitas.svg) | ![Closed Issues](https://img.shields.io/github/issues-closed/landinfotech/mycivitas.svg) | ![Pull requests](https://img.shields.io/github/issues-pr/landinfotech/mycivitas.svg) |
 
 #### Contributor License Agreement (CLA)
 <!-- Insert links to CLA -->
@@ -108,10 +107,14 @@ Contributions to this project will be subject to our [Contributor License Agreem
 
 #### License
 
-This project is open source, published under the AGPL-3.
-You can read our license to find out what rights this license bestows to users and contributors.
+This project is open source, and published under the AGPL-3.
+You can read our license to find out what rights this license bestows on users and contributors.
 
 [License](about/license.md)
 
 <!-- Keep the Kartoza Logo at the bottom of the page if the project allows -->
 ![Kartoza Logo](img/KartozaLogo-320x132.png)
+
+## Disclaimer
+
+<div class="admonition warning"> The software provided by this project is provided 'as is'. All information provided within the platform should be independently verified before using as the basis for action. The contributors and developers of this platform take no responsibility for any loss of revenue, life, physical harm or any other adverse outcome that may occur as a result of the use of this platform. </div>
